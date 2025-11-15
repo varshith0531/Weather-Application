@@ -9,12 +9,12 @@ function App() {
           raysOrigin="top-center"
           raysColor="white"
           raysSpeed={1.5}
-          lightSpread={0.8}
+          lightSpread={2}
           rayLength={3}
           followMouse={true}
           mouseInfluence={0.1}
           noiseAmount={0.1}
-          distortion={0.05}
+          distortion={0.1}
           className="custom-rays"
         />
       </div>
