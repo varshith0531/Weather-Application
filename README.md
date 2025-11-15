@@ -74,13 +74,10 @@ npm run preview
 
 The app uses the OpenWeatherMap API. The API key is currently hardcoded in the Weather component. For production use, consider:
 
-1. Moving the API key to environment variables (create a `.env` file):
-   ```env
-   VITE_WEATHER_API_KEY=your_api_key_here
-   ```
-2. Creating a backend service to proxy API calls
-3. Implementing rate limiting
-4. Adding API key validation and error handling
+
+1. Creating a backend service to proxy API calls
+2. Implementing rate limiting
+3. Adding API key validation and error handling
 
 ## Customization
 
